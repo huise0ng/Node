@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "echo \"Hello world!\""
+    "server": "nodemon src/main.js"
   },
   "devDependencies": {
     "chokidar": "^3.5.3",
@@ -12,6 +12,7 @@
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
+    "nodemon": "^3.0.1",
     "typescript": "^5.2.2"
   }
 }
